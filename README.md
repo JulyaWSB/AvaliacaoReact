@@ -1,12 +1,43 @@
-# React + Vite
+# Projeto React - Questões de Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação React que implementa três funcionalidades distintas em páginas separadas, acessíveis a partir de uma página principal (Home). Cada funcionalidade corresponde a uma questão proposta.
 
-Currently, two official plugins are available:
+## 🔗 Estrutura do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📄 Página Principal (Home)
+Tela inicial simples com três botões/links para acessar as páginas das questões:
 
-## Expanding the ESLint configuration
+- Tema Claro/Escuro  
+- Mensagem Secreta  
+- Lista de Tarefas  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🌗 Questão 1 - Alterar Tema (Claro/Escuro)
+
+Componente com um botão que alterna entre o tema claro e escuro:
+
+- O fundo da tela muda de cor entre claro e escuro.  
+- O texto do botão alterna entre `"Tema Claro"` e `"Tema Escuro"`.
+
+---
+
+### 💬 Questão 2 - Mudar Texto com Botão
+
+Componente com um parágrafo e botão:
+
+- Parágrafo inicial com o texto misterioso
+- Botão com o texto **"Aperte aqui!"**  
+- Ao clicar no botão, o texto do parágrafo muda para uma curiosidade incrível
+
+---
+
+### ✅ Questão 3 - Lista de Tarefas
+
+Componente que permite o usuário adicionar tarefas:
+
+- Campo de texto para digitar a tarefa  
+- Botão **"Adicionar"** que adiciona a tarefa na lista  
+- Lista exibindo todas as tarefas adicionadas  
+
+---
