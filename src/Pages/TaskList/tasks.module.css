@@ -1,0 +1,114 @@
+.container {
+  padding: 2rem;
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  width: 100%;
+  max-width: 900px;
+}
+
+.mainContent {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  max-width: 900px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.adicionar {
+  flex: 0 0 300px;
+  background-color: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  width: 100%;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  outline: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.295);
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+.listar {
+  flex: 1;
+  background-color: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.item input {
+  width: 15px;
+  height: 15px;
+  accent-color: #7b1fa2;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.naoConcluida {
+  text-decoration: none;
+  color: white;
+}
+
+.deletar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.iconeLixeira {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+.areaVoltar {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.1rem;
+}

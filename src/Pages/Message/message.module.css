@@ -1,0 +1,34 @@
+.bg {
+  height: 100vh;
+  background-color: #1d1d1de8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 41rem;
+  height: 18rem;
+  background-color: rgba(178, 142, 236, 0.87);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 15rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

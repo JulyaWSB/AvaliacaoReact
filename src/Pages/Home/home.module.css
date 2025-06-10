@@ -1,0 +1,16 @@
+.homeContainer {
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+}
+
+.titulo {
+  padding: 2rem;
+  color: #ffff;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
